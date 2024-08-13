@@ -1,0 +1,299 @@
+{
+  "intents": [
+    {
+      "tag": "noanswer",
+      "patterns": [""],
+      "responses": [
+        "Maaf, saya tidak mengerti apa yang kamu maksud.",
+        "Maaf, untuk saat ini chatbot ini belum dapat menjawab pertanyaan kamu."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting1",
+      "patterns": ["halo"],
+      "responses": [
+        "Halo, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting2",
+      "patterns": ["hello"],
+      "responses": [
+        "Hello, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting3",
+      "patterns": ["hai"],
+      "responses": [
+        "Hai, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting4",
+      "patterns": ["selamat pagi"],
+      "responses": [
+        "Selamat Pagi, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting5",
+      "patterns": ["selamat siang"],
+      "responses": [
+        "Selamat Siang, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting6",
+      "patterns": ["selamat sore"],
+      "responses": [
+        "Selamat Sore, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting_malam",
+      "patterns": ["selamat malam", "selamat malem"],
+      "responses": [
+        "Selamat Malam, selamat datang di website kampus! Ada yang bisa saya bantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "visi",
+      "patterns": ["visi pnb", "visi kampus", "visi lembaga"],
+      "responses": [
+        "Politeknik Negeri Bali (PNB) memiliki Visi sebagai berikut:<div style='margin-left: 20px;'><br><ol><li>Menjadi Lembaga Pendidikan Tinggi Vokasi Terdepan Penghasil Lulusan Profesional Berdaya Saing Internasional Pada Tahun 2025.</li></ol></div>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "misi",
+      "patterns": ["misi pnb", "misi kampus", "misi lembaga"],
+      "responses": [
+        "Politeknik Negeri Bali (PNB) memiliki Misi sebagai berikut:<div style='margin-left: 20px;'><br><ol><li>Menjalankan pendidikan vokasi yang dapat diakses secara merata bagi masyarakat.</li><li>Menyelenggarakan pendidikan vokasi yang berkarakter bangsa dengan standar mutu nasional dan regional di Asia-Pasifik.</li><li>Menyelenggarakan penelitian bertaraf internasional di bidang ilmu dan teknologi terapan.</li><li>Menyelenggarakan pengabdian kepada masyarakat berbasis penerapan ilmu pengetahuan dan teknologi.</li><li>Menyelenggarakan kerjasama di kawasan ASPAC.</li><li>Mengembangkan sistem tata kelola yang inovatif, transparan, dan akuntabel yang didukung oleh sumber daya berstandar internasional.</li><li>Membangun keunggulan institusi berorientasi pariwisata.</li></ol></div>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "visi_dan_misi",
+      "patterns": [
+        "visi dan misi pnb",
+        "visi misi kampus",
+        "visi misi lembaga"
+      ],
+      "responses": [
+        "Politeknik Negeri Bali (PNB) memiliki Visi dan Misi sebagai berikut:<br><br><strong>Visi:</strong><div style='margin-left: 20px;'><ol><li>Menjadi Lembaga Pendidikan Tinggi Vokasi Terdepan Penghasil Lulusan Profesional Berdaya Saing Internasional Pada Tahun 2025.</li></ol></div><br><strong>Misi:</strong><div style='margin-left: 20px;'><ol><li>Menjalankan pendidikan vokasi yang dapat diakses secara merata bagi masyarakat.</li><li>Menyelenggarakan pendidikan vokasi yang berkarakter bangsa dengan standar mutu nasional dan regional di Asia-Pasifik.</li><li>Menyelenggarakan penelitian bertaraf internasional di bidang ilmu dan teknologi terapan.</li><li>Menyelenggarakan pengabdian kepada masyarakat berbasis penerapan ilmu pengetahuan dan teknologi.</li><li>Menyelenggarakan kerjasama di kawasan ASPAC.</li><li>Mengembangkan sistem tata kelola yang inovatif, transparan, dan akuntabel yang didukung oleh sumber daya berstandar internasional.</li><li>Membangun keunggulan institusi berorientasi pariwisata.</li></ol></div>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "info_kampus",
+      "patterns": ["info kampus", "informasi kampus", "tentang kampus"],
+      "responses": [
+        "Kampus PNB memiliki berbagai jurusan dan program studi unggulan serta fasilitas yang modern dengan luas kampus sebesar 123.668 m2. Politeknik Negeri Bali telah didirikan sejak 1987 dengan jumlah mahasiswa saat ini berjumlah lebih dari 6000 mahasiswa. Politeknik Negeri Bali juga memiliki lebih dari 25.000 alumni yang sudah bekerja diberbagai belahan dunia."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "program_studi",
+      "patterns": ["program studi", "prodi"],
+      "responses": [
+        "Program studi dari jurusan apa yang ingin kamu lihat? Apakah Teknik Elektro, Akuntasi, atau yang lainnya?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "prodi_teknik_elektro",
+      "patterns": ["prodi teknik elektro", "program studi teknik elektro"],
+      "responses": [
+        "Program studi di Jurusan Teknik Elektro adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Teknik Otomasi</li><li>Program Studi D4 Teknologi Rekayasa Energi Terbarukan</li><li>Program Studi D3 Teknik Listrik</li><li>Program Studi D2 Instalasi Dan Pemeliharaan Kabel Bertegangan Rendah (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_teknik_mesin",
+      "patterns": ["prodi teknik mesin", "program studi teknik mesin"],
+      "responses": [
+        "Adapun program studi di Jurusan Teknik Mesin adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Teknologi Rekayasa Utilitas</li><li>Program Studi D4 Rekayasa Perancangan Mekanik</li><li>Program Studi D3 Teknik Mesin</li><li>Program Studi D3 Teknik Pendingin dan Tata Udara</li><li>Program Studi D2 Teknik Manufaktur Mesin (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_teknik_sipil",
+      "patterns": ["prodi teknik sipil", "program studi teknik sipil"],
+      "responses": [
+        "Adapun program studi di Jurusan Teknik Sipil adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Manajemen Proyek Konstruksi</li><li>Program Studi D4 Teknologi Rekayasa Konstruksi Bangunan Air</li><li>Program Studi D4 Teknologi Rekayasa Konstruksi Bangunan Gedung</li><li>Program Studi D3 Teknik Sipil</li><li>Program Studi D2 Fondasi, Beton, Dan Pengaspalan Jalan (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_teknologi_informasi",
+      "patterns": [
+        "prodi teknologi informasi",
+        "program studi teknologi informasi",
+        "ti"
+      ],
+      "responses": [
+        "Adapun program studi di Jurusan Teknologi Informasi adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Teknologi Rekayasa Perangkat Lunak</li><li>Program Studi D3 Manajemen Informatika</li><li>Program Studi D2 Administrasi Jaringan Komputer (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_administrasi_bisnis",
+      "patterns": [
+        "prodi administrasi bisnis",
+        "program studi administrasi bisnis",
+        "ab"
+      ],
+      "responses": [
+        "Adapun program studi di Jurusan Administrasi Bisnis adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Bisnis Digital</li><li>Program Studi D4 Manajemen Bisnis Internasional</li><li>Program Studi D4 Bahasa Inggris Untuk Komunikasi Bisnis dan Profesional</li><li>Program Studi D3 Administrasi Bisnis</li><li>Program Studi D3 Administrasi Bisnis (Kampus Kab. Karangasem)</li><li>Program Studi D2 Manajemen Operasi Bisnis Digital (Jalur Cepat)</li><li>Program Studi D2 Operasionalisasi Perkantoran Digital (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_akuntansi",
+      "patterns": ["prodi akuntansi", "program studi akuntansi"],
+      "responses": [
+        "Adapun program studi di Jurusan Akuntansi adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi D4 Akuntansi Manajerial</li><li>Program Studi D4 Akuntansi Perpajakan</li><li>Program Studi D3 Akuntansi</li><li>Program Studi D2 Administrasi Perpajakan (Jalur Cepat)</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "prodi_pariwisata",
+      "patterns": ["prodi pariwisata", "program studi pariwisata"],
+      "responses": [
+        "Adapun program studi di Jurusan Pariwisata adalah sebagai berikut:<br><strong>Program Studi:</strong><div style='margin-left: 20px;'><ol><li>Program Studi Magister Terapan Perencanaan Pariwisata</li><li>Program Studi D4 Manajemen Bisnis Pariwisata</li><li>Program Studi D3 Perhotelan</li><li>Program Studi D3 Perhotelan (Kampus Kab. Jembrana)</li><li>Program Studi D3 Perhotelan (Kampus Kab. Karangasem)</li><li>Program Studi D3 Perhotelan (Kampus Kab. Lombok Barat)</li><li>Program Studi D3 Usaha Perjalanan Wisata</li></ol></div>"
+      ],
+      "context": ["program_studi"]
+    },
+    {
+      "tag": "fasilitas_kampus",
+      "patterns": ["fasilitas kampus", "fasilitas"],
+      "responses": [
+        "Kampus kami dilengkapi dengan fasilitas modern, termasuk perpustakaan, laboratorium, Wifi, kantin, parkiran yang luas dan berbagai fasilitas lainnya. Apakah Anda ingin mengetahui lebih detail tentang fasilitas tertentu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "perpustakaan",
+      "patterns": ["perpus", "perpustakaan"],
+      "responses": [
+        "Perpustakaan di Politeknik Negeri Bali berada di lantai I gedung D4 Teknologi dengan luas area 850 m2 dengan jumlah koleksi sebanyak 13.322 judul dengan 32.852 exemplar. Untuk informasi lebih lengkapnya dapat dilihat pada link berikut: <a href='https://perpustakaan.pnb.ac.id/' target='_blank'>https://perpustakaan.pnb.ac.id/</a>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pendaftaran",
+      "patterns": [
+        "pendaftaran",
+        "cara mendaftar",
+        "proses pendaftaran",
+        "daftar"
+      ],
+      "responses": [
+        "Penerimaan pendaftaran calon mahasiswa baru Politeknik Negeri Bali tahun akademik 2024-2025 dengan 3 jalur penerimaan antara lain:<br><br>1. SNBP (Seleksi Nasional Berbasis Prestasi)<br>2. UTBK-SNBT(Ujian Tulis Berbasis Tes-Seleksi Nasional Berbasis Tes)<br>3. Seleksi Mandiri Politeknik Negeri Bali,<br><br>Adapun jadwal penerimaan mahasiswa baru dan persyaratan pendaftaran dapat dilihat di tautan berikut:  <a href='https://pmb.pnb.ac.id' target='_blank'>https://pmb.pnb.ac.id</a>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "biaya_kuliah",
+      "patterns": [
+        "biaya kuliah",
+        "uang kuliah",
+        "biaya pendidikan",
+        "ukt",
+        "harga"
+      ],
+      "responses": [
+        "Biaya pendidikan tergantung pada jenjang pendidikan yang Anda pilih. Apakah Anda ingin mengetahui biaya pendidikan untuk program Diploma 3 atau Diploma 4/Sarjana Terapan?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "biaya_kuliah_d3",
+      "patterns": ["biaya pendidikan d3", "biaya kuliah d3"],
+      "responses": [
+        "Biaya pendidikan (UKT) untuk program D3 adalah sebagai berikut:<br><br><img src='https://i.imgur.com/R8HsaJ4.jpg' alt='Biaya Kuliah D3' style='max-width: 100%; height: auto;'><br><br>Apakah Anda memerlukan informasi tambahan?"
+      ],
+      "context": ["biaya_kuliah"]
+    },
+    {
+      "tag": "biaya_kuliah_d4",
+      "patterns": ["biaya pendidikan d4", "biaya kuliah d4"],
+      "responses": [
+        "Biaya pendidikan (UKT) untuk program D4 adalah sebagai berikut:<br><br><img src='https://i.imgur.com/oCSj5Ue.jpg' alt='Biaya Kuliah D4' style='max-width: 100%; height: auto;'><br><br>Apakah Anda memerlukan informasi tambahan?"
+      ],
+      "context": ["biaya_kuliah"]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": ["beasiswa", "scholarship"],
+      "responses": [
+        "Kampus PNB menawarkan berbagai beasiswa untuk mahasiswa berprestasi dan kurang mampu. Anda dapat mengunjungi website berikut <a href=' https://beasiswa.pnb.ac.id/#/' target='_blank'> https://beasiswa.pnb.ac.id/#/</a> untuk informasi lebih lanjut dan cara pendaftarannya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kontak",
+      "patterns": ["kontak", "hubungi", "contact"],
+      "responses": [
+        "Anda dapat menghubungi kami melalui detail kontak berikut:<br><strong>Politeknik Negeri Bali</strong><br>Kampus Politeknik Negeri Bali, Bukit Jimbaran, Kuta Selatan, Badung - Bali 80361<br>PO BOX 1064 Tuban<br>Telepon: +62 (0361)701981<br>Email: <a href='mailto:poltek@pnb.ac.id'>poltek@pnb.ac.id</a>"
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "lokasi",
+      "patterns": ["lokasi", "alamat kampus", "lokasi kampus"],
+      "responses": [
+        "Kampus PNB berlokasi di pusat kota dengan akses mudah dari berbagai wilayah. Alamat lengkapnya adalah Kampus Politeknik Negeri Bali, Bukit Jimbaran, Kuta Selatan, Badung. Anda juga bisa melihat peta lokasi di halaman lokasi website PNB atau melalui link berikut: <a href=' https://maps.app.goo.gl/zEtEB8SyJkuL2x819' target='_blank'> https://maps.app.goo.gl/zEtEB8SyJkuL2x819</a>."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": ["jadwal kuliah", "jadwal"],
+      "responses": [
+        "Jadwal kuliah dapat diakses melalui portal mahasiswa setelah Anda terdaftar sebagai mahasiswa aktif. Informasi lebih lanjut mengenai jadwal kuliah akan diberikan saat orientasi mahasiswa baru."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kegiatan_kampus",
+      "patterns": ["kegiatan kampus", "aktivitas kampus", "event kampus"],
+      "responses": [
+        "Kami memiliki berbagai kegiatan dan event kampus, mulai dari seminar, workshop, hingga kegiatan ekstrakurikuler. Anda bisa melihat kalender kegiatan di halaman event di website ini."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "jurusan",
+      "patterns": ["jurusan", "jrsn", "daftar jurusan"],
+      "responses": [
+        "Jurusan yang tersedia di Politeknik Negeri Bali adalah sebagai berikut:<div style='margin-left: 20px;'><ol><li>Jurusan Teknik Elektro</li><li>Jurusan Teknik Mesin</li><li>Jurusan Teknik Sipil</li><li>Jurusan Teknologi Informasi</li><li>Jurusan Administrasi Bisnis</li><li>Jurusan Akuntansi</li><li>Jurusan Pariwisata</li></ol></div>"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tidak",
+      "patterns": ["tidak", "ga", "ngga", "nggak", "no"],
+      "responses": [
+        "Baik, apabila tidak ada lagi yang ingin ditanyakan, terima kasih sudah memakai layanan informasi kami. Semoga hari Anda menyenangkan! 👋😊"
+      ]
+    },
+    {
+      "tag": "ya",
+      "patterns": ["ya", "iya", "yap", "yes"],
+      "responses": [
+        "Baik, ada yang ingin ditanyakan lagi? Saya siap membantu! 😊"
+      ]
+    }
+  ]
+}
